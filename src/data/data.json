@@ -1,0 +1,38 @@
+{
+    "data": [
+        {
+            "title": "Europe",
+            "nodes": [
+                {
+                    "title": "UK",
+                    "nodes": []
+                },
+                {
+                    "title": "Austria",
+                    "nodes": []
+                },
+                {
+                    "title": "Belarus",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "title": "America",
+            "nodes": [
+                {
+                    "title": "Canada",
+                    "nodes": []
+                },
+                {
+                    "title": "USA",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "title": "Australia",
+            "nodes": []
+        }
+    ]
+}

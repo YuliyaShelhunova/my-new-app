@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let node of nodes">{{node.title}}
+        <ng-container *ngIf="node.nodes">
+            <app-record-nodes [nodes]="node.nodes"></app-record-nodes>
+        </ng-container>
+    </li>
+</ul>
