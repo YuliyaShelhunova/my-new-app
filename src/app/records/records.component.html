@@ -1,5 +1,5 @@
 <ul>
     <li *ngFor="let node of data">{{node.title}}
-        <app-record-nodes [nodes]="node.nodes"></app-record-nodes>
+        <app-record-nodes *ngIf="node.nodes" [nodes]="node.nodes"></app-record-nodes>
     </li>
 </ul>
